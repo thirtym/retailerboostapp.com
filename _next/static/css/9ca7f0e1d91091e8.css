@@ -1,12 +1,15 @@
 .ComparisonTable_comparisonContainer__IX5BW {
   max-width:1000px;
   margin:3rem auto;
+  padding:0 2rem;
+  text-align:center;
 }
 .ComparisonTable_comparisonHeading___rT5m {
   font-size:2.5rem;
   font-weight:700;
   color:#fff;
   margin-bottom:1rem;
+  text-align:center;
 }
 .ComparisonTable_comparisonIntro__EZ_dw {
   font-size:1.1rem;
@@ -32,6 +35,7 @@
 .ComparisonTable_valueCell__PZrPF {
   padding:1.5rem;
   display:flex;
+  align-items:center;
 }
 .ComparisonTable_featureCell__lVRmV {
   color:#fff;
@@ -53,6 +57,7 @@
   color:#e5e5e5;
   font-size:.95rem;
   line-height:1.6;
+  text-align:left;
 }
 .ComparisonTable_valueCell__PZrPF:last-child {
 }
@@ -105,12 +110,13 @@
   }
 }
 .FooterCTA_section__uO_0T {
-  padding:4rem 0 6rem;
+  padding:4rem 2rem 6rem;
   margin-bottom:0;
 }
 .FooterCTA_container__iguBQ {
   max-width:1200px;
   margin:0 auto;
+  padding:0 2rem;
 }
 .FooterCTA_ctaBox__cIEiy {
   background:linear-gradient(135deg, rgba(0, 217, 163, .1), rgba(0, 179, 134, .05));
@@ -136,6 +142,7 @@
   font-size:1.25rem;
   color:#e5e5e5;
   line-height:1.6;
+  margin-bottom:2rem;
 }
 .FooterCTA_ctaButton__U5pyF {
   display:inline-block;
@@ -147,6 +154,8 @@
   font-weight:700;
   border-radius:12px;
   transition:all .3s ease;
+  margin-top:1rem;
+  margin-bottom:1.5rem;
 }
 .FooterCTA_ctaButton__U5pyF:hover {
   transform:translateY(-2px);
@@ -313,11 +322,14 @@
   background:rgba(0, 217, 163, .1);
 }
 .Hero_socialProof__yuByx {
+  margin-top:4rem;
+  text-align:center;
 }
 .Hero_socialProofText___wM8K {
   color:#e5e5e5;
   font-size:1.2rem;
   margin:0 0 2rem;
+  text-align:center;
 }
 .Hero_logoGrid__N1_yC {
   flex-wrap:wrap;
@@ -325,6 +337,8 @@
   margin-top:2rem;
   max-width:800px;
   margin-left:auto;
+  margin-right:auto;
+  align-items:center;
 }
 .Hero_logoGrid__N1_yC,
 .Hero_logoItem__wgk3m {
@@ -382,10 +396,13 @@
   }
 }
 .HowItWorks_section___YmGt {
+  padding:4rem 2rem;
+  margin-bottom:4rem;
 }
 .HowItWorks_container__z03jw {
   max-width:1200px;
   margin:0 auto;
+  padding:0 2rem;
 }
 .HowItWorks_heading__Cf95L {
   font-size:3rem;
@@ -399,17 +416,20 @@
   text-align:center;
   font-size:1.25rem;
   color:#e5e5e5;
+  margin-bottom:3rem;
 }
 .HowItWorks_columnsContainer__e0uHU {
   display:grid;
   grid-template-columns:1fr 1fr;
   grid-gap:4rem;
   gap:4rem;
+  margin-bottom:4rem;
 }
 .HowItWorks_column__mRBWN {
   background:linear-gradient(135deg, rgba(0, 217, 163, .03), rgba(10, 10, 10, .6));
   border:1px solid rgba(0, 217, 163, .2);
   border-radius:20px;
+  padding:2.5rem;
 }
 .HowItWorks_columnHeading__QMyB9 {
   font-size:2rem;
@@ -420,6 +440,7 @@
 .HowItWorks_stepsList__KoZ7H {
   display:flex;
   flex-direction:column;
+  gap:1.5rem;
 }
 .HowItWorks_stepItem__VbbeH {
   display:flex;
@@ -453,6 +474,7 @@
   border:1px solid rgba(0, 217, 163, .3);
   border-radius:16px;
   padding:3rem;
+  margin-bottom:4rem;
 }
 .HowItWorks_prerequisitesHeading__dnp5o {
   font-size:1.75rem;
@@ -462,6 +484,7 @@
 }
 .HowItWorks_prerequisitesContent__ljCR_ {
   max-width:900px;
+  margin:0 auto;
 }
 .HowItWorks_prerequisitesText__7vL3j {
   color:#e5e5e5;
@@ -524,12 +547,15 @@
   border:1px solid rgba(0, 217, 163, .3);
   border-radius:16px;
   padding:3rem;
+  text-align:center;
+  margin-bottom:4rem;
 }
 .HowItWorks_catchHeading__qVNEj {
   font-size:2rem;
   font-weight:700;
   color:#fff;
   margin-bottom:1.5rem;
+  text-align:center;
 }
 .HowItWorks_catchIntro___pK7u {
   text-align:center;
@@ -556,18 +582,21 @@
   font-weight:700;
   color:#00d9a3;
   margin-bottom:2rem;
+  text-align:left;
 }
 .HowItWorks_outcomesGrid__TP9lR {
   display:grid;
   grid-template-columns:repeat(2, 1fr);
   grid-gap:2rem;
   gap:2rem;
+  margin-bottom:2rem;
 }
 .HowItWorks_outcomeCard__eOwny {
   background:rgba(0, 0, 0, .4);
   border:1px solid rgba(255, 255, 255, .1);
   border-radius:12px;
   padding:2rem;
+  text-align:left;
 }
 .HowItWorks_outcomeCard__eOwny:hover {
   border-color:rgba(0, 217, 163, .4);
@@ -935,6 +964,7 @@
 .PersonaCards_container__rdYMA {
   max-width:1200px;
   margin:0 auto;
+  padding:0 2rem;
 }
 .PersonaCards_heading__MNzfS {
   font-size:2.5rem;
